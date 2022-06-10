@@ -1,0 +1,71 @@
+[
+  {
+    "description": "As a user I want to filter tasks via Categories so I can see categorised tasks.",
+    "elements": [
+      {
+        "description": "",
+        "id": "filter-todos-via-categories;tasks-must-have-categories-selected",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Tasks must have categories selected",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4514054699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am in the page todos",
+            "match": {
+              "location": "features\\support\\filterFeature.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22535619000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add a new task and select categories",
+            "match": {
+              "location": "features\\support\\filterFeature.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5639677300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can categorize it based on what needs to be done",
+            "match": {
+              "location": "features\\support\\filterFeature.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5294572700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "filter-todos-via-categories",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Filter Todos via categories",
+    "tags": [],
+    "uri": "features\\filter.feature"
+  }
+]
